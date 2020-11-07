@@ -1,0 +1,76 @@
+
+*{font-family: 'Lobster', cursive;}
+
+:root{ --main-color:pink;}
+:root{--second-color:yellow;}
+
+h1,h2,h3{
+    font-family: 'Dancing Script', cursive;
+}
+.nav-hover:hover{
+    border-bottom: 2px solid var(--second-color);
+}
+.navbar-toggler {
+    background-color: var(--main-color);
+}
+#navbar{
+    transition: 0.5s;
+}
+.header{
+    height: 100vh;
+    min-height: 500px;
+    background: url('./media/yogurtheader.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text-shadow{
+    text-shadow: 2px 2px 5px rgb(0, 0,0);
+}
+.prenota{
+    background-color:var(--main-color);
+}
+.over-box{
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+.over-img{
+    transition: 1s;
+}
+.over-box:hover .over-img{
+    transform: scale(1.3);
+}
+.over-text{
+    padding: 20px 40px;
+    transition: 1s;
+    z-index: 1s;
+}
+.over-box::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    content: "";
+    transition: 1s;
+    opacity: 0;
+    background-color:rgb(255, 255, 255, 0.4);
+}
+.over-box:hover::after{
+    opacity: 1;
+}
+.bg-section-cta{
+    height: 400px;
+    background: url('./media/calorie-frutta.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and(max-width:576px){
+    .bg-section-cta{
+        background-position: right;
+    }
+}
+
