@@ -7,6 +7,8 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -15,7 +17,9 @@
    
   <nav id="navbar" class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
     <a class="navbar-brand" href="">
+      <div data-aos="zoom-in" data-aos-duration="3000">
         <img class="ml-5" id="logo" src="./media/logo.png" width="60" height="70" alt="yougurteria" loading="lazy">
+      </div>
         <div class="col-4">
          Yogurt dal 1905..
         </div>
@@ -42,7 +46,9 @@
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 col-md-6 mt-4 text-white text-shadow">
-          <h1 class="my-4 display-4">Yogurteria Caminiti</h1>
+        <div data-aos="fade-left" data-aos-duration="3000">
+        <h1 class="my-4 display-4">Yogurteria Caminiti</h1>
+        </div>
           <p class="lead">lo yogurt che desideravi te lo portiamo a casa, e solo per questo periodo se prendi due yogurt avrai lo sconto del 10% sul prossimo acquisto</p>
        </div> 
        <div class="col-12 text-center text-lg-right">
@@ -122,14 +128,18 @@
     <div class="col-6 col-lg-3 mb-4">
       <div class=" h3 product-label text-center">Mucche controllate</div>
       <div class="wrapper">
+        <div data-aos="flip-left" data-aos-duration="3000">
         <img src="./media/mucca.jpg" class="img-fluid" alt="">
+      </div>
       </div>
 
     </div>
     <div class="col-6 col-lg-3 mb-4">
       <div class="h3 product-label">Trattamento termico</div>
       <div class="wrapper">
+        <div data-aos="flip-left" data-aos-duration="3000">
         <img src="./media/controllo.jpg" class="img-fluid" alt="">
+      </div>
       </div>
       
     </div>
@@ -137,7 +147,9 @@
     <div class="col-6 col-lg-3 mb-4">
       <div class="h3 product-label text-center">Frutta di stagione</div>
       <div class="wrapper">
+        <div data-aos="flip-left" data-aos-duration="3000">
         <img src="./media/frutta.jpg" class="img-fluid" alt="">
+      </div>
       </div>
       
     </div>
@@ -145,7 +157,9 @@
       <div class="h3 product-label text-center">Spedizione a casa tua!
       </div>
       <div class="wrapper">
+        <div data-aos="flip-left" data-aos-duration="3000">
         <img src="./media/confezionamento.jpg" class="img-fluid" alt="">
+      </div>
       </div>
     </div>
   </div>
@@ -205,6 +219,11 @@
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
     <script>
       AOS.init();
