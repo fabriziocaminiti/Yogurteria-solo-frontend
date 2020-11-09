@@ -13,16 +13,16 @@
 <body>
     <!-- Just an image -->
    
-  <nav id="navbar" class="navbar navbar-light fixed-top py-3">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
     <a class="navbar-brand" href="">
-        <img id="logo" class="ml-5" src="./media/logo.png" width="60" height="70" alt="yougurteria" loading="lazy">
+        <img id="logo" src="./media/logo.png" width="60" height="70" alt="yougurteria" loading="lazy">
         <div class="col-4">
          Yogurt dal 1905..
         </div>
       </a>
-      <div class="d-lg-none mr-5">
-        <i class="fas fa-utensil-spoon fa-3x "type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"></i>
-      </div>
+      
+        <i class="fas fa-utensil-spoon fa-3x d-lg-none mr-md-5"type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"></i>
+      
      
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
@@ -113,40 +113,75 @@
 </div>
 <div class="container my-5 py-5">
   <div class="row">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6 mb-5">
       <h2>Come agiamo</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis adipisci amet repudiandae quisquam velit deleniti dignissimos laudantium ut impedit consequatur voluptatem, autem soluta possimus eum. Voluptas aspernatur fuga facere distinctio.</p>
     </div>
   </div>
   <div class="row">
-    <div class="col-6 col-lg-3 mb-2">
-      <div class="product-label">Mucche controllate 100%</div>
+    <div class="col-6 col-lg-3 mb-4">
+      <div class=" h3 product-label text-center">Mucche controllate</div>
       <div class="wrapper">
         <img src="./media/mucca.jpg" class="img-fluid" alt="">
       </div>
 
     </div>
-    <div class="col-6 col-lg-3 mb-2">
-      <div class="product-label">Trattamento termico</div>
+    <div class="col-6 col-lg-3 mb-4">
+      <div class="h3 product-label">Trattamento termico</div>
       <div class="wrapper">
         <img src="./media/controllo.jpg" class="img-fluid" alt="">
       </div>
       
     </div>
 
-    <div class="col-6 col-lg-3 mb-2">
-      <div class="product-label">scelta della frutta migliore per stagione</div>
+    <div class="col-6 col-lg-3 mb-4">
+      <div class="h3 product-label text-center">Frutta di stagione</div>
       <div class="wrapper">
         <img src="./media/frutta.jpg" class="img-fluid" alt="">
       </div>
       
     </div>
-    <div class="col-6 col-lg-3 mb-2">
-      <div class="product-label">confezionamento e pronto per essere spedito a te!</div>
+    <div class="col-6 col-lg-3 mb-4">
+      <div class="h3 product-label text-center">Spedizione a casa tua!
+      </div>
       <div class="wrapper">
         <img src="./media/confezionamento.jpg" class="img-fluid" alt="">
       </div>
     </div>
+  </div>
+</div>
+<div class="container-fluid my-5 py-5 bg-section-cta2">
+  <div class="row h-100 justify-content-center">
+    <div class="col-12 col-md-6 text-center text-white h3">Compila il form e ti ricontatteremo immediatamente!</div>
+        <form class="card p-5 border-0 " action="">
+          <div class="form-group mb-2">
+            <label for="name" class="mb-0 text-secondary">Nome</label>
+            <input type="text" class="form-control border-bottom-green" id="name">
+          </div>
+          <div class="form-group mb-2">
+            <label for="cognome" class="mb-0 text-secondary">Cognome</label>
+            <input type="text" class="form-control border-bottom-green" id="cognome">
+          </div>
+          <div class="form-group mb-2">
+            <label for="residenza" class="mb-0 text-secondary">Residenza</label>
+            <input type="text" class="form-control border-bottom-green" id="residenza">
+          </div>
+          <div class="form-group mb-2">
+            <label for="tel" class="mb-0 text-secondary">Cellulare</label>
+            <input type="tel" class="form-control border-bottom-green" id="tel">
+          </div>
+          <div class="form-group mb-2">
+            <label for="Mail" class="mb-0 text-secondary">Mail</label>
+            <input type="Mail" class="form-control border-bottom-green" id="Mail">
+          </div>
+          <div class="form-group mb-2 mt-3">
+            <input type="checkbox" class="form-check-input" id="privacy">
+            <label for="privacy" class="mb-0 text-secondary">Accetto termini e condizioni</label>
+          </div>
+        </form>
+      <div class="col-12 text-center">
+      <a href="" class="btn btn-lg px-4 rounded-pill text-uppercase bg-success shadow text-white">Prenota</a>
+      </div>
   </div>
 </div>
 

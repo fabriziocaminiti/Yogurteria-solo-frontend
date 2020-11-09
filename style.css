@@ -14,7 +14,8 @@ h1,h2,h3{
     background-color: var(--main-color);
 }
 #navbar{
-    transition: 0.5s;
+    transition: 1s;
+   
 }
 .header{
     height: 100vh;
@@ -62,7 +63,7 @@ h1,h2,h3{
     opacity: 1;
 }
 .bg-section-cta{
-    height: 400px;
+    height: 500px;
     background: url('./media/calorie-frutta.jpg');
     background-size: cover;
     background-position: center;
@@ -74,3 +75,14 @@ h1,h2,h3{
     }
 }
 
+.bg-section-cta2{
+    height: 500px;
+    background: linear-gradient(white,transparent, white), url('./media/cta2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.border-bottom-green{
+    border: none !important;
+    border-bottom: 4px solid green !important;
+    border-radius: 0px;
+}
