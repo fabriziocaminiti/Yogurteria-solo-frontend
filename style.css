@@ -7,6 +7,7 @@
 h1,h2,h3{
     font-family: 'Dancing Script', cursive;
 }
+
 .nav-hover:hover{
     border-bottom: 2px solid var(--second-color);
 }
@@ -80,6 +81,7 @@ h1,h2,h3{
     background: linear-gradient(white,transparent, white), url('./media/cta2.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .border-bottom-green{
     border: none !important;
