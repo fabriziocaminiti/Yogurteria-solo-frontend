@@ -8,7 +8,6 @@
      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-     <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -45,14 +44,17 @@
 <header class="header">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
-      <div class="col-12 col-md-6 mt-4 text-white text-shadow">
-        <div data-aos="fade-left" data-aos-duration="3000">
-        <h1 class="my-4 display-4">Yogurteria Caminiti</h1>
+      <div class="col-12 col-md-6 text-white text-shadow">
+        <div data-aos="fade-right" data-aos-duration="3000">
+        <h1 class="my-5 py-5 display-4">Yogurteria Caminiti</h1>
         </div>
-          <p class="lead">lo yogurt che desideravi te lo portiamo a casa, e solo per questo periodo se prendi due yogurt avrai lo sconto del 10% sul prossimo acquisto</p>
+          <p class="lead">Lo yogurt che desideravi te lo portiamo a casa, e solo per questo periodo se prendi due yogurt avrai lo sconto del 10% sul prossimo acquisto</p>
        </div> 
-       <div class="col-12 text-center text-lg-right">
-        <a id="prenota" href="" class="btn btn-lg text-white bg-warning rounded-pill px-3 shadow text-uppercase">prenota</a>
+       
+       <div class="col-12 text-center text-md-right">
+        <div data-aos="fade-left" data-aos-duration="3000">
+        <a href="" class="prenota btn btn-lg text-white bg-warning rounded-pill px-3 py-4 shadow text-uppercase">prenota</a>
+       </div>
       </div>
     </div>
   </div>
@@ -67,37 +69,37 @@
   </div>
   <div class="row mt-5">
     <div class="col-12 col-md-4 mb-3">
-      <p class="lead text-secondary text-center bg-white w-100 over-text"> Motivazione</p>
+      <p class="lead text-secondary text-center bg-white w-100 over-text"> Cascata di fragole </p>
       <div class="over-box">
       <img src="./media/fragola.png" class="img-fluid over-img" alt="">
     </div>
     </div>
     <div class="col-12 col-md-4 mb-3">
-      <p class="lead text-secondary text-center bg-white w-100 over-text"> Motivazione</p>
+      <p class="lead text-secondary text-center bg-white w-100 over-text"> Neve di fragole al cioccolato</p>
       <div class="over-box">  
       <img src="./media/cioccolato.png" class="img-fluid over-img" alt="">
     </div>
     </div>
     <div class="col-12 col-md-4 mb-3">
-      <p class="lead text-secondary text-center bg-white w-100 over-text"> Motivazione</p>
+      <p class="lead text-secondary text-center bg-white w-100 over-text"> Inverno al pistacchio</p>
       <div class="over-box">     
       <img src="./media/pistacchio.png" class="img-fluid over-img" alt="">
     </div>
     </div>
     <div class="col-12 col-md-4 mb-3">
-      <p class="lead text-secondary text-center bg-white w-100 over-text"> Motivazione</p>
+      <p class="lead text-secondary text-center bg-white w-100 over-text"> Tramonto di pesca</p>
       <div class="over-box">   
       <img src="./media/pesca.png" class="img-fluid over-img" alt="">
     </div>
     </div>
     <div class="col-12 col-md-4 mb-3">
-      <p class="lead text-secondary text-center bg-white w-100 over-text"> Motivazione</p>
+      <p class="lead text-secondary text-center bg-white w-100 over-text"> Mango al sole</p>
       <div class="over-box">   
       <img src="./media/mango.png" class="img-fluid over-img" alt="">
     </div>
     </div>
     <div class="col-12 col-md-4 mb-3">
-      <p class="lead text-secondary text-center bg-white w-100 over-text"> Motivazione</p>
+      <p class="lead text-secondary text-center bg-white w-100 over-text"> Magro ma buono</p>
       <div class="over-box">   
       <img src="./media/magro.png" class="img-fluid over-img" alt="">
     </div>
@@ -111,9 +113,13 @@
     <div class="col-8 text-center text-white">
         <p class="h1">Acquista subito il tuo fantastico yogurt di  stagione!</p>
       </div>
+      
       <div class="col-12 text-center">
+        <div data-aos="fade-up"data-aos-duration="3000">
       <a href="" class="btn btn-lg px-4 rounded-pill text-uppercase bg-success shadow text-white">Prenota</a>
+        </div>
       </div>
+    
   </div>
 </div>
 <div class="container my-5 py-5">
@@ -193,6 +199,12 @@
 <footer class="container-fluid py-5 bg-warning">
   <div class="row">
     <div class="col-12 text-center">
+      <p class="mb-2">
+        <i class="fab fa-facebook-f mx-3 text-white fa-2x"></i>
+        <i class="fab fa-instagram-square mx-3 text-white fa-2x"></i>
+        <i class="fab fa-twitter-square mx-3 text-white fa-2x"></i>
+        <i class="fab fa-google-plus-g mx-3 text-white fa-2x"></i>
+      </p>
       <p class="h3">
         Yogurteria Caminiti
       </p>
@@ -219,11 +231,6 @@
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-
-    <script src="js/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
 
     <script>
       AOS.init();
